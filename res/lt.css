@@ -1,0 +1,140 @@
+/*
+ *
+ * Reset
+ *
+ */
+html { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; background:#ffffff; font-size:100%; }
+* { vertical-align:baseline; }
+img { vertical-align:middle; }
+th, td { vertical-align:middle; }
+th { text-align:center; }
+*:focus { outline: 0; -moz-outline:0; }
+a,a:active,a:hover { outline: 0; -moz-outline:0; text-decoration:none; }
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary { display: block; }
+audio,canvas,video { display: inline-block; }
+audio:not([controls]) { display: none; height: 0; }
+[hidden] { display: none; }
+h1 { font-size: 2em; }
+abbr[title] { border-bottom: 1px dotted; cursor:help; }
+b, strong { font-weight: bold; }
+dfn { font-style: italic; }
+mark { background: #ff0; color: #000; }
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: "\201C" "\201D" "\2018" "\2019"; }
+small { font-size: 80%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+img { border: 0; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+legend { border: 0; }
+legend { padding: 0; }
+button,input,select,textarea { font-family: inherit; font-size: 100%; }
+button,input,select,textarea { margin: 0; }
+button,input { line-height: normal; }
+button,html input[type="button"],input[type="reset"],input[type="submit"] {-webkit-appearance: button;cursor: pointer;}
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"],input[type="radio"] { box-sizing: border-box; padding: 0; }
+input[type="search"] { -webkit-appearance:textfield; }
+input[type="search"] { -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box; }
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button::-moz-focus-inner,input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; -webkit-appearance:none; }
+table { border-collapse:separate; border-spacing:0; border-color:#000000; }
+hr { border:0; height:1px; width:95%; background:#333333; margin:3px 0;}
+form { margin:0; }
+@media print { * { overflow:visible; } body { background:#ffffff; } }
+
+
+/*
+ *
+ * Glyph
+ *
+ */
+@font-face {
+	font-family: 'lt';
+	src:url('lt.eot');
+	src:url('lt.eot?#iefix') format('embedded-opentype'),
+	    url('lt.woff') format('woff'),
+	    url('lt.ttf') format('truetype'),
+	    url('lt.svg#oxygen') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.icon  { vertical-align:baseline; font-size:16px; line-height:100%; speak: none; font-family:'lt',monospace; font-style: normal; font-weight: normal; font-variant: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+@font-face {
+	font-family: 'fette';
+	src:url('fetteengschrift.eot');
+	src:url('fetteengschrift.eot?#iefix') format('embedded-opentype'),
+	    url('fetteengschrift.woff') format('woff'),
+	    url('fetteengschrift.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+/*
+ *
+ * Body
+ *
+ */
+
+body, body * { }
+#bg { position:fixed; z-index:0; top:0; left:0; right:0; bottom:0; width:100%; height:100%; }
+
+
+
+#top                    { position:relative; margin:20px 10px 0 0 ; }
+#top a.logo             { float:left; color:#ffffff; text-decoration:none; margin:0 20px;}
+#top a.logo:hover       { color:#ffffff; text-decoration:none; opacity:0.5;  }
+#top a.logo .icon       { font-size:60px;  }
+#top a.menu-item        { color:#ffffff; text-decoration:none; float:right; margin:15px 20px 0 0; font-size:14px; line-height:1em; text-transform:uppercase; border:1px solid rgba(255,255,255,0.5); padding:10px 20px; border-radius:5px; }
+#top a.menu-item:hover  { color:#9999aa; text-decoration:none; border-color:#ffffff; background:#ffffff; opacity:0.9; }
+
+
+#main { position:relative; margin:20px auto;  }
+#main .home-title   { margin:100px 0 80px 0; }
+#main .home-title-1 { text-align:center; color:#ffffff; font:60px/60px 'fette',Helvetica,Arial,Liberation Sans,sans-serif; }
+#main .home-title-2 { text-align:center; color:#ffffff; font:180px/140px 'fette',Helvetica,Arial,Liberation Sans,sans-serif; text-transform:uppercase;}
+#main .home-title-3 { text-align:center; color:#ffffff; font:20px/20px Helvetica,Arial,Liberation Sans,sans-serif; text-transform:uppercase;}
+#main .home-menu              { text-align:center; }
+#main a.home-menu-item        { color:#ffffff; text-decoration:none; display:inline-block; width:200px; margin:10px 15px; font-size:14px; line-height:1em; text-transform:uppercase; border:1px solid rgba(255,255,255,0.5); padding:20px 0; border-radius:100px; text-align:center; background:rgba(0,0,0,0.02); }
+#main a.home-menu-item:hover  { color:#9999aa; text-decoration:none; border-color:#ffffff; background:#ffffff; opacity:0.9; }
+
+
+#main .portfolio                  { }
+#main .portfolio-item             { float:left; width:290px; height:320px; margin:20px; }
+#main .portfolio-item .type       { background:rgba(255,255,255,0.8); color:#333333; font:16px/16px 'fette',Helvetica,Arial,Liberation Sans,sans-serif; text-transform:uppercase; padding:8px 20px 8px 40px; }
+#main .portfolio-item .type .icon { margin-right:5px; float:right;}
+#main .portfolio-item .bg         { background:rgba(0,0,0,0.9); height:300px; }
+#main .portfolio-item .title      { font:40px/48px 'fette',Helvetica,Arial,Liberation Sans,sans-serif; color:#ffffff; text-shadow:0 0 5px rgba(0,0,0,0.5); padding:150px 20px 0 40px; }
+#main .portfolio-item .subtitle   { font:13px/16px Helvetica,Arial,Liberation Sans,sans-serif; color:#ffffff; text-shadow:0 0 5px rgba(0,0,0,0.5); padding:5px 20px 0 50px; }
+
+
+
+
+
+@media screen and (min-width:10px)   { #main { width:330px; } }
+@media screen and (min-width:700px)  { #main { width:660px; } }
+@media screen and (min-width:1000px) { #main { width:990px; } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
