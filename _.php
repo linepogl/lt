@@ -2,7 +2,7 @@
 
 class LT {
     const DEFAULT_LANG = 'en';
-	public static $langs = ['en','fr'];
+	public static $langs = array('en','fr');
 	public static $lang = self::DEFAULT_LANG;
 	public static $tab = null;
 
@@ -61,19 +61,17 @@ class LT {
 		echo '<meta name="viewport" content="width=device-width,initial-scale=1.0" />';
 		echo '<link href="favicon.ico" rel="icon" type="image/x-icon" />';
 		echo '<link href="favicon.png" rel="apple-touch-icon" type="image/png" />';
-		echo '<link rel="stylesheet" type="text/css" href="res/lt.css" />';
-		echo '<script type="text/javascript" src="res/jquery.js"></script>';
-		echo '<script type="text/javascript" src="res/lt.js"></script>';
+		echo '<link rel="stylesheet" type="text/css" href="_.css" />';
 		echo '</head>';
 		echo '<body>';
         echo '<div id="head">';
         echo '<a class="logo" href="index.php"><span class="icon">&#xE001;</span></a>';
-	    echo '<a class="menu-item'.(stripos($php,'contact.php')===false?'':' active').'" href="'.LT::Href('contact.php').'">'.SAY(['en'=>'Contact','fr'=>'Contacter']).'</a>';
-        echo '<a class="menu-item'.(stripos($php,'clients.php')===false?'':' active').'" href="'.LT::Href('clients.php').'">'.SAY(['en'=>'Clients','fr'=>'Clients']).'</a>';
-        echo '<a class="menu-item'.(stripos($php,'portfolio.php')===false?'':' active').'" href="'.LT::Href('portfolio.php').'">'.SAY(['en'=>'Portfolio','fr'=>'Portfolio']).'</a>';
+	    echo '<a class="menu-item'.(stripos($php,'contact.php')===false?'':' active').'" href="'.LT::Href('contact.php').'">'.SAY(array('en'=>'Contact','fr'=>'Contacter')).'</a>';
+        echo '<a class="menu-item'.(stripos($php,'clients.php')===false?'':' active').'" href="'.LT::Href('clients.php').'">'.SAY(array('en'=>'Clients','fr'=>'Clients')).'</a>';
+        echo '<a class="menu-item'.(stripos($php,'portfolio.php')===false?'':' active').'" href="'.LT::Href('portfolio.php').'">'.SAY(array('en'=>'Portfolio','fr'=>'Portfolio')).'</a>';
         echo '<div style="clear:both;"></div>';
         echo '</div>';
-        echo '<img id="bg" src="res/bg.jpg" />';
+        echo '<img id="bg" src="img/bg.jpg" />';
         echo '<div id="main">';
 
     }
@@ -101,7 +99,7 @@ class LT {
  * @property $type
  */
 class Project {
-	private $data = ['icon'=>'&#xE000'];
+	private $data = array('icon'=>'&#xE000');
 	public static function Load($code){ return new Project($code); }
 	public function __construct($code) {
 		$xml = @simplexml_load_file('prj/' . $code . '/info.xml');

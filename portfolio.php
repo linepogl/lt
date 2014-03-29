@@ -15,9 +15,9 @@ switch (LT::$tab) {
 
 
     <div class="menu">
-    <a class="menu-item<?= $tab==='cinema'     ?' active':'' ?>" href="<?= LT::Href('portfolio.php',array('tab'=>'cinema'))      ?>"><?= SAY(['en'=>'Cinema','fr'=>'Cinéma']) ?></a>
-    <a class="menu-item<?= $tab==='advertising'?' active':'' ?>" href="<?= LT::Href('portfolio.php',array('tab'=>'advertising')) ?>"><?= SAY(['en'=>'Advertising','fr'=>'Publicités']) ?></a>
-    <a class="menu-item<?= $tab==='personal'   ?' active':'' ?>" href="<?= LT::Href('portfolio.php',array('tab'=>'personal'))    ?>"><?= SAY(['en'=>'Personal','fr'=>'Personnel']) ?></a>
+    <a class="menu-item<?= $tab==='cinema'     ?' active':'' ?>" href="<?= LT::Href('portfolio.php',array('tab'=>'cinema'))      ?>"><?= SAY(array('en'=>'Cinema','fr'=>'Cinéma')) ?></a>
+    <a class="menu-item<?= $tab==='advertising'?' active':'' ?>" href="<?= LT::Href('portfolio.php',array('tab'=>'advertising')) ?>"><?= SAY(array('en'=>'Advertising','fr'=>'Publicités')) ?></a>
+    <a class="menu-item<?= $tab==='personal'   ?' active':'' ?>" href="<?= LT::Href('portfolio.php',array('tab'=>'personal'))    ?>"><?= SAY(array('en'=>'Personal','fr'=>'Personnel')) ?></a>
     </div>
 
 	<div class="portfolio">
