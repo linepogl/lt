@@ -81,8 +81,8 @@ class LT {
 	public static function Foot() {
         echo '</div>';
         echo '<div id="foot">';
-        echo '<a class="lang'.(self::$lang==='en'?' active':'').'" href="'.htmlentities(self::Href(null,array('lang'=>'en'))).'">English</a>';
-        echo '<a class="lang'.(self::$lang==='fr'?' active':'').'" href="'.htmlentities(self::Href(null,array('lang'=>'fr'))).'">Français</a>';
+        echo '<a class="lang'.(self::$lang==='en'?' active':'').'" href="'.HTML(self::Href(null,array('lang'=>'en'))).'">English</a>';
+        echo '<a class="lang'.(self::$lang==='fr'?' active':'').'" href="'.HTML(self::Href(null,array('lang'=>'fr'))).'">Français</a>';
         echo '</div>';
 
         echo '</body></html>';
@@ -119,3 +119,4 @@ LT::Init();
 
 
 function SAY( $a ) { return LT::Say($a); }
+function HTML( $s ) { return str_replace(array('&','<','>','"'),array('&amp','&lt;','&gt;','&quot;'),$s); }

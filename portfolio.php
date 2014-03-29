@@ -15,9 +15,9 @@ switch (LT::$tab) {
 
 
     <div class="menu">
-    <a class="menu-item<?= $tab==='cinema'     ?' active':'' ?>" href="<?= LT::Href('portfolio.php',array('tab'=>'cinema'))      ?>"><?= SAY(array('en'=>'Cinema','fr'=>'Cinéma')) ?></a>
-    <a class="menu-item<?= $tab==='advertising'?' active':'' ?>" href="<?= LT::Href('portfolio.php',array('tab'=>'advertising')) ?>"><?= SAY(array('en'=>'Advertising','fr'=>'Publicités')) ?></a>
-    <a class="menu-item<?= $tab==='personal'   ?' active':'' ?>" href="<?= LT::Href('portfolio.php',array('tab'=>'personal'))    ?>"><?= SAY(array('en'=>'Personal','fr'=>'Personnel')) ?></a>
+    <a class="menu-item<?= $tab==='cinema'     ?' active':'' ?>" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'cinema')))      ?>"><?= SAY(array('en'=>'Cinema','fr'=>'Cinéma')) ?></a>
+    <a class="menu-item<?= $tab==='advertising'?' active':'' ?>" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'advertising'))) ?>"><?= SAY(array('en'=>'Advertising','fr'=>'Publicités')) ?></a>
+    <a class="menu-item<?= $tab==='personal'   ?' active':'' ?>" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'personal')))    ?>"><?= SAY(array('en'=>'Personal','fr'=>'Personnel')) ?></a>
     </div>
 
 	<div class="portfolio">
@@ -38,11 +38,11 @@ foreach (scandir('prj') as $f) {
 /** @var $prj Project */
 foreach ($list as $prj) {
 		?>
-        <a class="portfolio-item" href="<?= LT::Href('project.php',array('prj'=>$prj->code)) ?>">
-				<div class="type"><span class="icon"><?=$prj->icon?></span><span class="text"><?= $prj->type ?></span></div>
+        <a class="portfolio-item" href="<?= HTML(LT::Href('project.php',array('prj'=>$prj->code))) ?>">
+				<div class="type"><span class="icon"><?=$prj->icon?></span><span class="text"><?= HTML($prj->type) ?></span></div>
 				<div class="bg">
-				<div class="title"><?= $prj->title ?></div>
-				<div class="subtitle"><?= $prj->subtitle ?></div>
+				<div class="title"><?= HTML($prj->title) ?></div>
+				<div class="subtitle"><?= HTML($prj->subtitle) ?></div>
 				</div>
         </a>
 		<?php

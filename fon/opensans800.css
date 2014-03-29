@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'OpenSansExtrabold';
-    src: url('opensans800.eot');
-    src: url('opensans800.eot') format('embedded-opentype'),
-         url('opensans800.woff') format('woff'),
-         url('opensans800.ttf') format('truetype'),
-         url('opensans800.svg#OpenSansExtrabold') format('svg');
-}

@@ -11,9 +11,9 @@ LT::Head();
 </div>
 
 <div class="menu">
-<a class="menu-item" href="<?= LT::Href('portfolio.php',array('tab'=>'cinema'))      ?>"><?= SAY(array('en'=>'Cinema','fr'=>'Cinéma')) ?></a>
-<a class="menu-item" href="<?= LT::Href('portfolio.php',array('tab'=>'advertising')) ?>"><?= SAY(array('en'=>'Advertising','fr'=>'Publicités')) ?></a>
-<a class="menu-item" href="<?= LT::Href('portfolio.php',array('tab'=>'personal'))    ?>"><?= SAY(array('en'=>'Personal','fr'=>'Personnel')) ?></a>
+<a class="menu-item" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'cinema')))      ?>"><?= SAY(array('en'=>'Cinema','fr'=>'Cinéma')) ?></a>
+<a class="menu-item" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'advertising'))) ?>"><?= SAY(array('en'=>'Advertising','fr'=>'Publicités')) ?></a>
+<a class="menu-item" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'personal')))    ?>"><?= SAY(array('en'=>'Personal','fr'=>'Personnel')) ?></a>
 </div>
 
 
