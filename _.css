@@ -161,12 +161,15 @@ a:hover { text-decoration: none; }
 #main .project-body             { min-height:500px; background:#ffffff; padding:20px; margin: 30px 0;}
 #main .project-body .inner      { margin:0 auto; }
 
+
+#main .clients                  { margin:0 auto; padding:20px; text-align:center; }
+
 iframe.soundcloud { margin-top: 10px; margin-bottom: 20px; }
 iframe.youtube    { margin-top: 10px; margin-bottom: 20px; }
 
-@media screen and (min-width:10px)   { #main .menu, #main .portfolio, #main .project-head, #main .project-body .inner { width:330px; } }
-@media screen and (min-width:700px)  { #main .menu, #main .portfolio, #main .project-head, #main .project-body .inner { width:660px; } }
-@media screen and (min-width:1040px) { #main .menu, #main .portfolio, #main .project-head, #main .project-body .inner { width:990px; } }
+@media screen and (min-width:10px)   { #main .menu, #main .portfolio, #main .project-head, #main .project-body .inner, #main .clients { width:330px; } }
+@media screen and (min-width:700px)  { #main .menu, #main .portfolio, #main .project-head, #main .project-body .inner, #main .clients { width:660px; } }
+@media screen and (min-width:1040px) { #main .menu, #main .portfolio, #main .project-head, #main .project-body .inner, #main .clients { width:990px; } }
 
 
 
