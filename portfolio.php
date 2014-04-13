@@ -23,30 +23,20 @@ switch (LT::$tab) {
 	<div class="portfolio">
 
 <?php
-$list = array();
-foreach (scandir('prj') as $f) {
-    if ($f == '.' || $f == '..') continue;
-    if (!is_dir("prj/$f")) continue;
-    if (strtoupper(substr($f,0,1)) !== strtoupper(substr($tab,0,1))) continue;
-    $prj = Project::Load($f);
-    $list[] = $prj;
-}
-
-
-
 
 /** @var $prj Project */
-foreach ($list as $prj) {
-		?>
-        <a class="portfolio-item" href="<?= HTML(LT::Href('project.php',array('prj'=>$prj->code))) ?>">
-				<div class="type"><span class="icon"><?=$prj->icon?></span><span class="text"><?= HTML($prj->type) ?></span></div>
-				<div class="bg">
-				<div class="title"><?= HTML($prj->title) ?></div>
-				<div class="subtitle"><?= HTML($prj->subtitle) ?></div>
-				</div>
-        </a>
-		<?php
-	}
+foreach (LT::GetProjects($tab) as $prj) {
+	$thumb = $prj->GetThumbnailSrc();
+	?>
+  <a class="portfolio-item" href="<?= HTML(LT::Href('project.php',array('prj'=>$prj->code))) ?>">
+	<div class="type"><span class="icon"><?=$prj->icon?></span><span class="text"><?= HTML($prj->type) ?></span></div>
+	<div class="bg"<?= $thumb==''?'':' style="background:url('.$thumb.') 50% 50% no-repeat;"'?>>
+	<div class="title"><?= HTML($prj->title) ?></div>
+	<div class="subtitle"><?= HTML($prj->subtitle) ?></div>
+	</div>
+	</a>
+	<?php
+}
 ?>
 
 	<div style="clear:both;"></div>
