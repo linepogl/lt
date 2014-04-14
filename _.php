@@ -4,7 +4,7 @@ class LT {
   const DEFAULT_LANG = 'en';
 	public static $langs = array('en','fr');
 	public static $lang = self::DEFAULT_LANG;
-	public static $tab = null;
+	private static $tab = null;
 
 	public static function Init() {
 		$found = false;
@@ -29,14 +29,29 @@ class LT {
 		}
 	}
 
+	private static $tabs = array('CIN','ADV','PER');
+	public static function GetTabs() { return self::$tabs; }
+	public static function GetTab() {
+		if (in_array(self::$tab,self::GetTabs())) return self::$tab;
+		return self::$tabs[0];
+	}
+	public static function GetNextTab( $tab ) {
+		$r = self::$tabs[0];
+		$found = false;
+		foreach (self::$tabs as $t) {
+			if ($found) { $r = $t; break; }
+			if ($t===$tab) $found = true;
+		}
+		return $r;
+	}
 	public static function SayTab($tab) {
 		switch ($tab) {
 			default:
-			case 'cinema':
+			case 'CIN':
 				return SAY(array('en' => 'Cinema','fr' => 'Cinéma'));
-			case 'advertising':
+			case 'ADV':
 				return SAY(array('en' => 'Advertising','fr' => 'Publicités'));
-			case 'personal':
+			case 'PER':
 				return SAY(array('en' => 'Personal','fr' => 'Personnel'));
 		}
 	}
@@ -46,7 +61,8 @@ class LT {
 		foreach (scandir('prj') as $f) {
 			if ($f == '.' || $f == '..') continue;
 			if (!is_dir("prj/$f")) continue;
-			if (strtoupper(substr($f,0,1)) !== strtoupper(substr($tab,0,1))) continue;
+			if (strlen($f)<3) continue;
+			if (strtoupper(substr($f,0,3)) !== strtoupper($tab)) continue;
 			$prj = Project::Load($f);
 			$r[] = $prj;
 		}
@@ -153,24 +169,20 @@ class Project {
 		return file_exists($f)?$f:'';
 	}
 	public function GetTab(){
-		switch (strtoupper($this->code[0])) {
-			default:
-			case 'C': return 'cinema';
-			case 'A': return 'advertising';
-			case 'P': return 'personal';
-		}
+		return strtoupper(substr($this->code,0,3));
 	}
 	public function GetNextProject(){
 		$r = null;
 		$found = false;
-		foreach (LT::GetProjects($this->GetTab()) as $prj) {
-			if ($found) {
-				$r = $prj;
-				break;
-			}
-			if ($prj->code === $this->code) {
-				$found = true;
-			}
+		$tab = $this->GetTab();
+		foreach (LT::GetProjects($tab) as $prj) {
+			if ($found) { $r = $prj; break; }
+			if ($prj->code === $this->code) $found = true;
+		}
+		if ($r === null) {
+			$tab = LT::GetNextTab($tab);
+			$a = LT::GetProjects($tab);
+			if (count($a)>0) $r = $a[0];
 		}
 		return $r;
 	}

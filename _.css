@@ -149,7 +149,7 @@ a:hover { text-decoration: none; }
 #main .portfolio-item .type       { background:rgba(255,255,255,0.5); color:#333333; font:18px/18px FetteEngschrift,Helvetica,Arial,Liberation Sans,sans-serif; text-transform:uppercase; padding:8px 10px 8px 40px; }
 #main .portfolio-item .type .icon { margin-right:5px; float:right;}
 #main .portfolio-item .bg         { background:rgba(0,0,0,0.9); height:300px; }
-#main .portfolio-item .title      { font:40px/48px FetteEngschrift,Helvetica,Arial,Liberation Sans,sans-serif; color:#ffffff; text-shadow:0 0 5px rgba(0,0,0,0.5); padding:150px 20px 0 40px; }
+#main .portfolio-item .title      { font:40px/40px FetteEngschrift,Helvetica,Arial,Liberation Sans,sans-serif; color:#ffffff; text-shadow:0 0 5px rgba(0,0,0,0.5); padding:150px 20px 0 40px; }
 #main .portfolio-item .subtitle   { font:300 13px/16px OpenSans,Helvetica,Arial,Liberation Sans,sans-serif; color:#ffffff; text-shadow:0 0 5px rgba(0,0,0,0.5); padding:5px 20px 0 50px; }
 
 

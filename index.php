@@ -11,9 +11,9 @@ LT::Head();
 </div>
 
 <div class="menu">
-<a class="menu-item" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'cinema')))      ?>"><?= SAY(array('en'=>'Cinema','fr'=>'Cinéma')) ?></a>
-<a class="menu-item" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'advertising'))) ?>"><?= SAY(array('en'=>'Advertising','fr'=>'Publicités')) ?></a>
-<a class="menu-item" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'personal')))    ?>"><?= SAY(array('en'=>'Personal','fr'=>'Personnel')) ?></a>
+<?php foreach (LT::GetTabs() as $tab) { ?>
+<a class="menu-item" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>$tab))) ?>"><?= HTML(LT::SayTab($tab)) ?></a>
+<?php } ?>
 </div>
 
 

@@ -57,7 +57,7 @@ LT::Head( $prj->GetBackgroundSrc() );
 	if ($next_prj instanceof Project) {
 		?>
 		<div class="next-project" >
-		<a href="<?= HTML(LT::Href('project.php',array('prj'=>$next_prj->code))) ?>"><?= HTML(SAY(array('en'=>'Next: ','fr'=>'Suivant : '))) ?><?= HTML($next_prj->title) ?>&nbsp;&nbsp;&rsaquo;&nbsp;&rsaquo;</a>
+		<a href="<?= HTML(LT::Href('project.php',array('prj'=>$next_prj->code))) ?>"><?= HTML(SAY(array('en'=>'Next: ','fr'=>'Suivant : '))) ?><?= HTML($next_prj->type) ?> - <?= HTML($next_prj->title) ?>&nbsp;&nbsp;&rsaquo;&nbsp;&rsaquo;</a>
 		</div>
 		<?php
 	}

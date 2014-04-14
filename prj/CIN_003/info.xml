@@ -1,0 +1,28 @@
+<project>
+	<title>
+		<en>A drop in the ocean</en>
+		<fr>Une goutte dans l'océan</fr>
+	</title>
+	<subtitle>
+		<en>Animated short film.</en>
+		<fr>Court métrage d'animation.</fr>
+	</subtitle>
+	<type>
+		<en>Stop motion</en>
+		<fr>Stop motion</fr>
+	</type>
+	<date>
+		<en> </en>
+		<fr> </fr>
+	</date>
+	<description>
+		<en>
+			Animated short film directed by Dimitris Heliotis and Theodor Veneris. Sponsored by ODEON. Original music by Lambros Taklis.
+		</en>
+		<fr>
+			Court métrage d'animation dirigé par Dimitris Heliotis et Theodor Veneris. Sponsorisé par ODEON. Musique originale by Lambros Taklis.
+		</fr>
+	</description>
+</project>
+
+

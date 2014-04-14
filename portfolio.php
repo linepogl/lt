@@ -3,29 +3,22 @@ include('_.php');
 LT::Head();
 
 
-$tab = LT::$tab;
-switch (LT::$tab) {
-    case 'cinema': break;
-    case 'advertising': break;
-    case 'personal': break;
-    default: $tab = 'cinema'; break;
-}
+$current_tab = LT::GetTab();
 
 ?>
 
 
-    <div class="menu">
-    <a class="menu-item<?= $tab==='cinema'     ?' active':'' ?>" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'cinema')))      ?>"><?= SAY(array('en'=>'Cinema','fr'=>'Cinéma')) ?></a>
-    <a class="menu-item<?= $tab==='advertising'?' active':'' ?>" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'advertising'))) ?>"><?= SAY(array('en'=>'Advertising','fr'=>'Publicités')) ?></a>
-    <a class="menu-item<?= $tab==='personal'   ?' active':'' ?>" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>'personal')))    ?>"><?= SAY(array('en'=>'Personal','fr'=>'Personnel')) ?></a>
-    </div>
+<div class="menu">
+<?php foreach (LT::GetTabs() as $tab) { ?>
+<a class="menu-item<?= $tab===$current_tab?' active':'' ?>" href="<?= HTML(LT::Href('portfolio.php',array('tab'=>$tab))) ?>"><?= HTML(LT::SayTab($tab)) ?></a>
+<?php } ?>
+</div>
 
-	<div class="portfolio">
-
+<div class="portfolio">
 <?php
 
 /** @var $prj Project */
-foreach (LT::GetProjects($tab) as $prj) {
+foreach (LT::GetProjects($current_tab) as $prj) {
 	$thumb = $prj->GetThumbnailSrc();
 	?>
   <a class="portfolio-item" href="<?= HTML(LT::Href('project.php',array('prj'=>$prj->code))) ?>">
@@ -39,8 +32,8 @@ foreach (LT::GetProjects($tab) as $prj) {
 }
 ?>
 
-	<div style="clear:both;"></div>
-	</div>
+<div style="clear:both;"></div>
+</div>
 
 
 <?php
