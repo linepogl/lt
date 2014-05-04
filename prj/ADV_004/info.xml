@@ -1,19 +1,31 @@
 <project>
 
 	<title>
-		<en>Hidden life</en>
-		<fr>Hidden life</fr>
+		<en>Frulite</en>
+		<fr>Frulite</fr>
 	</title>
 
 	<subtitle>
-		<en>Official selection at Cannes Short Film Corner 2012.</en>
-		<fr>Sélection officielle de Short Film Corner du festival de Cannes.</fr>
+		<en>Frulite on the go</en>
+		<fr>Frulite on the go</fr>
 	</subtitle>
 
 	<type>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
+		<en>TV Commercial</en>
+		<fr>Publicité</fr>
 	</type>
+
+
+    <description>
+        <en>
+            Music by Lambros Taklis.
+            Director : Tolis Papathanasiou
+        </en>
+        <fr>
+            Musique : Lambros Taklis.
+            Réalisateur : Tolis Papathanasiou
+        </fr>
+    </description>
 
 </project>
 

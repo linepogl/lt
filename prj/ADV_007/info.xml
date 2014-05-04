@@ -1,19 +1,35 @@
 <project>
 
 	<title>
-		<en>Hidden life</en>
-		<fr>Hidden life</fr>
+		<en>Delta</en>
+		<fr>Delta</fr>
 	</title>
 
 	<subtitle>
-		<en>Official selection at Cannes Short Film Corner 2012.</en>
-		<fr>Sélection officielle de Short Film Corner du festival de Cannes.</fr>
+		<en>Vivartia Group</en>
+		<fr>Groupe Vivartia</fr>
 	</subtitle>
 
 	<type>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
+		<en>TV Commercial</en>
+		<fr>Publicité</fr>
 	</type>
+
+
+    <description>
+        <en>
+            Music by Lambros Taklis.
+            Ermis Awards 2005
+            Director : Babis Makridis
+            Filmiki productions / SPOT JWT
+        </en>
+        <fr>
+            Musique : Lambros Taklis.
+            Ermis Awards 2005
+            Réalisateur : Babis Makridis
+            Filmiki productions / SPOT JWT
+        </fr>
+    </description>
 
 </project>
 

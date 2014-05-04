@@ -168,6 +168,14 @@ class Project {
 		$f = 'prj/'.$this->code.'/decal.png';
 		return file_exists($f)?$f:'';
 	}
+	public function GetProductionSrc() {
+		$f = 'prj/'.$this->code.'/production.png';
+		return file_exists($f)?$f:'';
+	}
+	public function GetClientSrc() {
+		$f = 'prj/'.$this->code.'/client.png';
+		return file_exists($f)?$f:'';
+	}
 	public function GetTab(){
 		return strtoupper(substr($this->code,0,3));
 	}

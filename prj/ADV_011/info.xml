@@ -1,0 +1,32 @@
+<project>
+
+	<title>
+		<en>EVGA</en>
+		<fr>EVGA</fr>
+	</title>
+
+	<subtitle>
+		<en>Croissant Folie</en>
+		<fr>Croissant Folie</fr>
+	</subtitle>
+
+	<type>
+		<en>TV Commercial</en>
+		<fr>Publicité</fr>
+	</type>
+
+
+    <description>
+        <en>
+            Music by Lambros Taklis.
+            Stefi productions
+        </en>
+        <fr>
+            Musique : Lambros Taklis.
+            Stefi productions
+        </fr>
+    </description>
+
+</project>
+
+

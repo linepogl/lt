@@ -1,19 +1,33 @@
 <project>
 
 	<title>
-		<en>Hidden life</en>
-		<fr>Hidden life</fr>
+		<en>FAGE</en>
+		<fr>FAGE</fr>
 	</title>
 
 	<subtitle>
-		<en>Official selection at Cannes Short Film Corner 2012.</en>
-		<fr>Sélection officielle de Short Film Corner du festival de Cannes.</fr>
+		<en>Yogurt</en>
+		<fr>Yaourt</fr>
 	</subtitle>
 
 	<type>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
+		<en>TV Commercial</en>
+		<fr>Publicité</fr>
 	</type>
+
+
+    <description>
+        <en>
+            Music by Lambros Taklis.
+            Director : Ernesto Cinzi
+            Stefi productions / BOLD OGILVY
+        </en>
+        <fr>
+            Musique : Lambros Taklis.
+            Réalisateur : Ernesto Cinzi
+            Stefi productions / BOLD OGILVY
+        </fr>
+    </description>
 
 </project>
 

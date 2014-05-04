@@ -1,19 +1,32 @@
 <project>
 
 	<title>
-		<en>Hidden life</en>
-		<fr>Hidden life</fr>
+		<en>Skoda Fabia</en>
+		<fr>Skoda Fabia</fr>
 	</title>
 
 	<subtitle>
-		<en>Official selection at Cannes Short Film Corner 2012.</en>
-		<fr>Sélection officielle de Short Film Corner du festival de Cannes.</fr>
+		<en>Spirit &amp; Dynamic</en>
+		<fr>Dynamique</fr>
 	</subtitle>
 
-	<type>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
-	</type>
+    <type>
+        <en>TV Commercial</en>
+        <fr>Publicité</fr>
+    </type>
+
+    <description>
+        <en>
+            Music by Lambros Taklis.
+            Director : Dimitris Sotas
+        </en>
+        <fr>
+            Musique : Lambros Taklis.
+            Réalisateur : Dimitris Sotas
+        </fr>
+    </description>
+
+
 
 </project>
 

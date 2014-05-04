@@ -1,0 +1,34 @@
+<project>
+
+	<title>
+		<en>McDonnald's</en>
+		<fr>McDonnald's</fr>
+	</title>
+
+	<subtitle>
+		<en>Olympic pins Athens 2004</en>
+		<fr>Épingles olympiques  Athènes 2004</fr>
+	</subtitle>
+
+	<type>
+		<en>TV Commercial</en>
+		<fr>Publicité</fr>
+	</type>
+
+
+    <description>
+        <en>
+            Music by Lambros Taklis.
+            Director : Giannis Gaitanidis
+            Stefi productions / TBWA
+        </en>
+        <fr>
+            Musique : Lambros Taklis.
+            Réalisateur : Giannis Gaitanidis
+            Stefi productions / TBWA
+        </fr>
+    </description>
+
+</project>
+
+

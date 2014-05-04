@@ -1,0 +1,30 @@
+<project>
+
+	<title>
+		<en>Melissa's world</en>
+		<fr>Melissa's world</fr>
+	</title>
+
+	<subtitle>
+		<en>Music from the short film, "Dusky light".</en>
+		<fr>Musique du court métrage, "Dusky light".</fr>
+	</subtitle>
+
+	<type>
+		<en>Short film</en>
+		<fr>Court métrage</fr>
+	</type>
+    <description>
+        <en>
+            Original music : Lambros Taklis.
+            Director : Andreas Savvidis.
+        </en>
+        <fr>
+            Musique originale : Lambros Taklis.
+            Réalisateur : Andreas Savvidis.
+        </fr>
+    </description>
+
+</project>
+
+

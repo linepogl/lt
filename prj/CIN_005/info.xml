@@ -1,0 +1,30 @@
+<project>
+
+	<title>
+		<en>Fleur bleu</en>
+		<fr>Fleur bleu</fr>
+	</title>
+
+	<subtitle>
+		<en>Drama</en>
+		<fr>Dramatique</fr>
+	</subtitle>
+
+	<type>
+		<en>Short film</en>
+		<fr>Court métrage</fr>
+	</type>
+    <description>
+        <en>
+            Original music : Lambros Taklis.
+            Director : Chris Dimolikas
+        </en>
+        <fr>
+            Musique originale : Lambros Taklis.
+            Réalisateur : Chris Dimolikas
+        </fr>
+    </description>
+
+</project>
+
+

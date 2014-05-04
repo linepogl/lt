@@ -1,0 +1,32 @@
+<project>
+
+	<title>
+		<en>Ionia</en>
+		<fr>Ionia</fr>
+	</title>
+
+	<subtitle>
+		<en>"Greece"</en>
+		<fr>"Grèce"</fr>
+	</subtitle>
+
+	<type>
+		<en>TV Commercial</en>
+		<fr>Publicité</fr>
+	</type>
+
+
+    <description>
+        <en>
+            Music by Lambros Taklis.
+            Stefi productions
+        </en>
+        <fr>
+            Musique : Lambros Taklis.
+            Stefi productions
+        </fr>
+    </description>
+
+</project>
+
+

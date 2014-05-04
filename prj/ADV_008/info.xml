@@ -1,0 +1,34 @@
+<project>
+
+	<title>
+		<en>Nova</en>
+		<fr>Nova</fr>
+	</title>
+
+	<subtitle>
+		<en>Cinema season</en>
+		<fr>Saison cinéna</fr>
+	</subtitle>
+
+	<type>
+		<en>TV Commercial</en>
+		<fr>Publicité</fr>
+	</type>
+
+
+    <description>
+        <en>
+            Music by Lambros Taklis.
+            Director : Claus Dowie
+            Movielab
+        </en>
+        <fr>
+            Musique : Lambros Taklis.
+            Réalisateur : Claus Dowie
+            Movielab
+        </fr>
+    </description>
+
+</project>
+
+

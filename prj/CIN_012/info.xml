@@ -1,0 +1,33 @@
+<project>
+
+	<title>
+		<en>Sacred hills</en>
+		<fr>Sacred hills</fr>
+	</title>
+
+	<subtitle>
+        <en>Ethnic/orchestral/electronic</en>
+        <fr>Ethnique/Orchestral/Électronique</fr>
+	</subtitle>
+
+	<type>
+		<en>Corporate Video</en>
+		<fr>Vidéo d'entreprise</fr>
+	</type>
+    <description>
+        <en>
+            Commissioned by Pireaus Bank
+            Original music : Lambros Taklis.
+            Director : Giovanni Caccamo
+            Stefi Productions
+        </en>
+        <fr>
+            Commandé par Banque de Pireaus
+            Musique originale : Lambros Taklis.
+            Réalisateur : Giovanni Caccamo
+            Stefi Productions
+        </fr>
+    </description>
+</project>
+
+

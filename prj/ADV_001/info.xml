@@ -1,19 +1,35 @@
 <project>
 
 	<title>
-		<en>Hidden life</en>
-		<fr>Hidden life</fr>
+		<en>Skoda Fabia</en>
+		<fr>Skoda Fabia</fr>
 	</title>
 
 	<subtitle>
-		<en>Official selection at Cannes Short Film Corner 2012.</en>
-		<fr>Sélection officielle de Short Film Corner du festival de Cannes.</fr>
+		<en>Otto</en>
+		<fr>Otto</fr>
 	</subtitle>
 
 	<type>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
+		<en>TV Commercial Series</en>
+		<fr>Série de Publicités</fr>
 	</type>
+
+
+    <description>
+        <en>
+            Music by Lambros Taklis.
+            Ermis Awards 2007
+            Director : George Korgianitis
+            Stefi productions / TEAM ATHENS
+        </en>
+        <fr>
+            Musique : Lambros Taklis.
+            Ermis Awards 2007
+            Réalisateur : George Korgianitis
+            Stefi productions / TEAM ATHENS
+        </fr>
+    </description>
 
 </project>
 
