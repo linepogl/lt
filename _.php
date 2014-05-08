@@ -103,6 +103,7 @@ class LT {
 		echo '<link href="favicon.ico" rel="icon" type="image/x-icon" />';
 		echo '<link href="favicon.png" rel="apple-touch-icon" type="image/png" />';
 		echo '<link rel="stylesheet" type="text/css" href="_.css" />';
+        echo '<title>Lambros Taklis - '.SAY(array('en'=>'Composer','fr'=>'Compositeur')).'</title>';
 		echo '</head>';
 		echo '<body>';
 		echo '<div id="head">';
@@ -201,4 +202,4 @@ LT::Init();
 
 
 function SAY( $a ) { return LT::Say($a); }
-function HTML( $s ) { return str_replace(array('&','<','>','"'),array('&amp','&lt;','&gt;','&quot;'),$s); }
+function HTML( $s ) { return str_replace(array('&','<','>','"'),array('&amp;','&lt;','&gt;','&quot;'),$s); }

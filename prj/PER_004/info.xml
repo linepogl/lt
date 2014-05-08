@@ -1,20 +1,26 @@
 <project>
-
 	<title>
-		<en>Hidden life</en>
-		<fr>Hidden life</fr>
+		<en>Smyrneiko minore</en>
+		<fr>Smyrneiko minore</fr>
 	</title>
-
 	<subtitle>
-		<en>Official selection at Cannes Short Film Corner 2012.</en>
-		<fr>Sélection officielle de Short Film Corner du festival de Cannes.</fr>
+		<en>A traditional song from Smyrna.</en>
+		<fr>Une chanson traditionnelle de Smyrna.</fr>
 	</subtitle>
-
 	<type>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
+		<en>World music</en>
+		<fr>Musique du monde</fr>
 	</type>
-
+	<description>
+		<en>
+            Piano arrangement / performance : Lambros Taklis
+            Vocals: Stella Kellari
+		</en>
+		<fr>
+            Piano / performance : Lambros Taklis
+            Voix : Stella Kellari
+		</fr>
+	</description>
 </project>
 
 

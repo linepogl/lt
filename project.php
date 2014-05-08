@@ -45,17 +45,9 @@ LT::Head( $prj->GetBackgroundSrc() );
 		<?php
 
 		echo '<div class="info">';
-		echo '<table width="100%" cellspacing="0" cellpadding="0" border="0"><tr>';
-
-		echo '<td width="100%" style="vertical-align:top;">';
-		$s = trim($prj->type); if ($s) echo '<div class="info-type">'.HTML($s).'</div>';
-		$s = trim($prj->date); if ($s) echo '<div class="info-date">'.HTML($s).'</div>';
+//		$s = trim($prj->type); if ($s) echo '<div class="info-type">'.HTML($s).'</div>';
+//		$s = trim($prj->date); if ($s) echo '<div class="info-date">'.HTML($s).'</div>';
 		$s = trim($prj->description); if ($s) echo '<div class="info-description">'.str_replace("\n",'<br/>',HTML($s)).'</div>';
-		echo '</td>';
-
-
-
-		echo '</tr></table>';
 		echo '</div>';
 
 

@@ -1,20 +1,26 @@
 <project>
-
 	<title>
-		<en>Hidden life</en>
-		<fr>Hidden life</fr>
+		<en>Dream</en>
+		<fr>Dream</fr>
 	</title>
-
 	<subtitle>
-		<en>Official selection at Cannes Short Film Corner 2012.</en>
-		<fr>Sélection officielle de Short Film Corner du festival de Cannes.</fr>
+		<en>Installation by Efi Fouriki</en>
+		<fr>Installation de Efi Fouriki</fr>
 	</subtitle>
-
 	<type>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
+		<en>Installation</en>
+        <fr>Installation</fr>
 	</type>
-
+	<description>
+		<en>
+            Installation by Efi Fouriki
+            Original music by Lambros Taklis.
+        </en>
+		<fr>
+            Installation : Efi Fouriki
+            Musique Originale : Lambros Taklis
+		</fr>
+	</description>
 </project>
 
 
