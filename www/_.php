@@ -29,7 +29,7 @@ class LT {
 		}
 	}
 
-	private static $tabs = array('CIN','ADV','PER');
+	private static $tabs = array('CIN','COM','PER');
 	public static function GetTabs() { return self::$tabs; }
 	public static function GetTab() {
 		if (in_array(self::$tab,self::GetTabs())) return self::$tab;
@@ -49,8 +49,8 @@ class LT {
 			default:
 			case 'CIN':
 				return SAY(array('en' => 'Cinema','fr' => 'Cinéma'));
-			case 'ADV':
-				return SAY(array('en' => 'Advertising','fr' => 'Publicités'));
+			case 'COM':
+				return SAY(array('en' => 'Commercial','fr' => 'Publicités'));
 			case 'PER':
 				return SAY(array('en' => 'Personal','fr' => 'Personnel'));
 		}
@@ -108,9 +108,9 @@ class LT {
 		echo '<body>';
 		echo '<div id="head">';
 		echo '<a class="logo" href="index.php"><span class="icon">&#xE001;</span></a>';
-		echo '<a class="menu-item'.(stripos($php,'contact.php')===false?'':' active').'" href="'.LT::Href('contact.php').'">'.SAY(array('en'=>'Contact','fr'=>'Contacter')).'</a>';
-		echo '<a class="menu-item'.(stripos($php,'clients.php')===false?'':' active').'" href="'.LT::Href('clients.php').'">'.SAY(array('en'=>'Clients','fr'=>'Clients')).'</a>';
-		echo '<a class="menu-item'.(stripos($php,'portfolio.php')===false?'':' active').'" href="'.LT::Href('portfolio.php').'">'.SAY(array('en'=>'Portfolio','fr'=>'Portfolio')).'</a>';
+		echo '<a class="menu-item'.(stripos($php,'contact.php')===false?'':' active').'" href="'.LT::Href('contact.php').'">'.HTML(SAY(array('en'=>'Bio & Contact','fr'=>'Bio & Contacter'))).'</a>';
+		echo '<a class="menu-item'.(stripos($php,'clients.php')===false?'':' active').'" href="'.LT::Href('clients.php').'">'.HTML(SAY(array('en'=>'Clients','fr'=>'Clients'))).'</a>';
+		echo '<a class="menu-item'.(stripos($php,'portfolio.php')===false?'':' active').'" href="'.LT::Href('portfolio.php').'">'.HTML(SAY(array('en'=>'Portfolio','fr'=>'Portfolio'))).'</a>';
 		echo '<div style="clear:both;"></div>';
 		echo '</div>';
 		echo '<img id="bg" src="'.HTML($bg==''?'img/bg.jpg':$bg).'" />';

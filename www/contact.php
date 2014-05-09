@@ -1,7 +1,7 @@
 <?php
 include('_.php');
 
-LT::Head();
+LT::Head('img/contact_bg.jpg');
 ?>
 
 
@@ -33,7 +33,7 @@ LT::Head();
     </div>
 </div>
 
-    <div class="menu bottom">
+    <div class="menu bottom" style="color:#ffffff;">
         &rsaquo; &rsaquo; &rsaquo; <a class="menu-item" href="mailto:info@taklis.com">info@taklis.com</a> &lsaquo; &lsaquo; &lsaquo;
     </div>
 
