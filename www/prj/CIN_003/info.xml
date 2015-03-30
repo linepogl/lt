@@ -1,15 +1,15 @@
 <project>
 	<title>
-		<en>A drop in the ocean</en>
-		<fr>A drop in the ocean</fr>
+		<en>Orchestral Reel</en>
+		<fr>Orchestral Reel</fr>
 	</title>
 	<subtitle>
-		<en>Animated short film.</en>
-		<fr>Court métrage d'animation.</fr>
+		<en>Excerpts from various orchestral pieces.</en>
+		<fr>Extraits des pièces diverces de musique orchestral.</fr>
 	</subtitle>
 	<type>
-		<en>Stop motion</en>
-		<fr>Stop motion</fr>
+		<en>Film music</en>
+		<fr>Musique de film</fr>
 	</type>
 	<date>
 		<en> </en>
@@ -17,14 +17,12 @@
 	</date>
 	<description>
 		<en>
-            Original music : Lambros Taklis.
-            Director : D.Heliotis &amp; T. Veneris.
-            Sponsored by ODEON.
+
+
 		</en>
 		<fr>
-            Musique originale : Lambros Taklis.
-            Réalisateur : D.Heliotis &amp; T. Veneris.
-            Sponsorisé by ODEON.
+
+
 		</fr>
 	</description>
 </project>

@@ -1,33 +1,30 @@
 <project>
 
 	<title>
-		<en>Sacred hills</en>
-		<fr>Sacred hills</fr>
+		<en>Ancient Illis</en>
+		<fr>Ancient Illis</fr>
 	</title>
 
 	<subtitle>
-        <en>Ethnic/orchestral/electronic</en>
-        <fr>Ethnique/Orchestral/Électronique</fr>
+		<en>Music from the documentary "Anient Ilis"</en>
+		<fr>Musique du documentaire "Anient Ilis"</fr>
 	</subtitle>
 
 	<type>
-		<en>Corporate Video</en>
-		<fr>Vidéo d'entreprise</fr>
+		<en>Documentary</en>
+		<fr>Documentaire</fr>
 	</type>
     <description>
         <en>
-            Commissioned by Pireaus Bank
             Original music : Lambros Taklis.
-            Director : Giovanni Caccamo
-            Stefi Productions
+            Director : Yiannis Bournazos
         </en>
         <fr>
-            Commandé par Banque de Pireaus
             Musique originale : Lambros Taklis.
-            Réalisateur : Giovanni Caccamo
-            Stefi Productions
+            Réalisateur : Yiannis Bournazos
         </fr>
     </description>
+
 </project>
 
 

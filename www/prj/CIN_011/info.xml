@@ -1,27 +1,23 @@
 <project>
 
 	<title>
-		<en>Ancient Illis</en>
-		<fr>Ancient Illis</fr>
+		<en>Valley of prayers</en>
+		<fr>Valley of prayers</fr>
 	</title>
 
 	<subtitle>
-		<en>Music from the documentary "Anient Ilis"</en>
-		<fr>Musique du documentaire "Anient Ilis"</fr>
+		<en>Ethnic/Ambient</en>
+		<fr>Ethnique/Ambiante</fr>
 	</subtitle>
 
 	<type>
-		<en>Documentary</en>
-		<fr>Documentaire</fr>
+		<en>Concept work</en>
+		<fr>Concept</fr>
 	</type>
     <description>
         <en>
-            Original music : Lambros Taklis.
-            Director : Yiannis Bournazos
         </en>
         <fr>
-            Musique originale : Lambros Taklis.
-            Réalisateur : Yiannis Bournazos
         </fr>
     </description>
 

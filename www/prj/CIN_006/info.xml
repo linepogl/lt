@@ -1,23 +1,27 @@
 <project>
 
 	<title>
-		<en>Thessaloniki Film Festival</en>
-		<fr>Festival de Film de Thessalonique</fr>
+		<en>Fleur bleue</en>
+		<fr>Fleur bleue</fr>
 	</title>
 
 	<subtitle>
-		<en>Excerpts from the "Making-Of" of 49th Thessaloniki International Film Festival</en>
-		<fr>Extraits du "Making-Of" de 49ème Festival International de Film de Thessalonique</fr>
+		<en>Drama</en>
+		<fr>Dramatique</fr>
 	</subtitle>
 
 	<type>
-		<en>Making-Of</en>
-		<fr>Making-Of</fr>
+		<en>Short film</en>
+		<fr>Court métrage</fr>
 	</type>
     <description>
         <en>
+            Original music : Lambros Taklis.
+            Director : Chris Dimolikas
         </en>
         <fr>
+            Musique originale : Lambros Taklis.
+            Réalisateur : Chris Dimolikas
         </fr>
     </description>
 

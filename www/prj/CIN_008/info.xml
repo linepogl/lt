@@ -1,23 +1,27 @@
 <project>
 
 	<title>
-		<en>Dear Lucie</en>
-		<fr>Dear Lucie</fr>
+		<en>Melissa's world</en>
+		<fr>Melissa's world</fr>
 	</title>
 
 	<subtitle>
-        <en>Drama</en>
-        <fr>Dramatique</fr>
+		<en>Music from the short film, "Dusky light".</en>
+		<fr>Musique du court métrage, "Dusky light".</fr>
 	</subtitle>
 
 	<type>
-		<en>Concept work</en>
-		<fr>Concept</fr>
+		<en>Short film</en>
+		<fr>Court métrage</fr>
 	</type>
     <description>
         <en>
+            Original music : Lambros Taklis.
+            Director : Andreas Savvidis.
         </en>
         <fr>
+            Musique originale : Lambros Taklis.
+            Réalisateur : Andreas Savvidis.
         </fr>
     </description>
 

@@ -1,26 +1,32 @@
 <project>
-
 	<title>
-		<en>A Step Behind</en>
-		<fr>A Step Behind</fr>
+		<en>A drop in the ocean</en>
+		<fr>A drop in the ocean</fr>
 	</title>
-
 	<subtitle>
-		<en>Action/Epic</en>
-		<fr>Action/Epique</fr>
+		<en>Animated short film.</en>
+		<fr>Court métrage d'animation.</fr>
 	</subtitle>
-
 	<type>
-		<en>Concept</en>
-		<fr>Concept</fr>
+		<en>Stop motion</en>
+		<fr>Stop motion</fr>
 	</type>
-    <description>
-        <en>
-        </en>
-        <fr>
-        </fr>
-    </description>
-
+	<date>
+		<en> </en>
+		<fr> </fr>
+	</date>
+	<description>
+		<en>
+            Original music : Lambros Taklis.
+            Director : D.Heliotis &amp; T. Veneris.
+            Sponsored by ODEON.
+		</en>
+		<fr>
+            Musique originale : Lambros Taklis.
+            Réalisateur : D.Heliotis &amp; T. Veneris.
+            Sponsorisé by ODEON.
+		</fr>
+	</description>
 </project>
 
 

@@ -1,27 +1,23 @@
 <project>
 
 	<title>
-		<en>Fleur bleue</en>
-		<fr>Fleur bleue</fr>
+		<en>A Step Behind</en>
+		<fr>A Step Behind</fr>
 	</title>
 
 	<subtitle>
-		<en>Drama</en>
-		<fr>Dramatique</fr>
+		<en>Action/Epic</en>
+		<fr>Action/Epique</fr>
 	</subtitle>
 
 	<type>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
+		<en>Concept</en>
+		<fr>Concept</fr>
 	</type>
     <description>
         <en>
-            Original music : Lambros Taklis.
-            Director : Chris Dimolikas
         </en>
         <fr>
-            Musique originale : Lambros Taklis.
-            Réalisateur : Chris Dimolikas
         </fr>
     </description>
 

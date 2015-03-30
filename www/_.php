@@ -123,8 +123,8 @@ class LT {
 	public static function Foot() {
         echo '</div>';
         echo '<div id="foot">';
-        echo '<a class="lang'.(self::$lang==='en'?' active':'').'" href="'.HTML(self::Href(null,array('lang'=>'en'))).'">English</a>';
-        echo '<a class="lang'.(self::$lang==='fr'?' active':'').'" href="'.HTML(self::Href(null,array('lang'=>'fr'))).'">Français</a>';
+        echo '<a class="lang'.(self::$lang==='en'?' active':'').'" href="'.HTML(self::Href(null,array('lang'=>'en')+$_GET)).'">English</a>';
+        echo '<a class="lang'.(self::$lang==='fr'?' active':'').'" href="'.HTML(self::Href(null,array('lang'=>'fr')+$_GET)).'">Français</a>';
         echo '</div>';
 
         echo '</body></html>';
