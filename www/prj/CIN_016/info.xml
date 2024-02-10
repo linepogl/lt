@@ -1,13 +1,13 @@
 <project>
 
 	<title>
-		<en>House in the water</en>
-		<fr>La maison dans l'eau</fr>
+		<en>Béton armé</en>
+		<fr>Béton armé</fr>
 	</title>
 
 	<subtitle>
-		<en>Official selection at Cannes Short Film Corner 2017</en>
-		<fr>Sélection officielle du short film corner du festival de Cannes 2017</fr>
+		<en>Short film</en>
+		<fr>Court métrage</fr>
 	</subtitle>
 	<type>
 		<en>Short film</en>
@@ -16,13 +16,13 @@
     <description>
         <en>
             Original music : Lambros Taklis
-			Director : Jingyang SUN
-			Production : Lorrena Films, 2017
+			Director : Fatih TURSUN
+			Production : SERIAL PROD, 2018
 		</en>
         <fr>
             Musique originale : Lambros Taklis
-			Director : Jingyang SUN
-			Production : Lorrena Films, 2017
+			Réalisateur : Fatih TURSUN
+			Production : SERIAL PROD, 2018
 		</fr>
     </description>
 

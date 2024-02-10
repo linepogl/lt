@@ -49,7 +49,7 @@ LT::Head( $prj->GetBackgroundSrc() );
 //		$s = trim($prj->date); if ($s) echo '<div class="info-date">'.HTML($s).'</div>';
 		$s = trim($prj->description); if ($s) echo '<div class="info-description">'
             .str_replace("\n",'<br/>',HTML($s))
-            .implode(array_map(function($link) { return '<br/><a href="https://'.$link.'">'.$link.'</a>'; }, $prj->GetLinks()))
+            .implode(array_map(function($link) { return '<br/><br/><a href="https://'.$link.'">'.$link.'</a>'; }, $prj->GetLinks()))
             .'</div>';
 		echo '</div>';
 

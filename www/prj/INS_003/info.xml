@@ -1,32 +1,41 @@
 <project>
-    <title>
-        <en>Sound and light mirroring</en>
-        <fr>Sound and light mirroring</fr>
-    </title>
-    <subtitle>
-        <en>Installation by Efi Fouriki</en>
-        <fr>Installation de Efi Fouriki</fr>
-    </subtitle>
-    <type>
-        <en>Installation</en>
+	<title>
+		<en>Dream</en>
+		<fr>Dream</fr>
+	</title>
+	<subtitle>
+		<en>Installation by Efi Fouriki</en>
+		<fr>Installation de Efi Fouriki</fr>
+	</subtitle>
+	<type>
+		<en>Installation</en>
         <fr>Installation</fr>
-    </type>
-    <description>
-        <en>
+	</type>
+	<description>
+		<en>
             Installation by Efi Fouriki
-            Original music by Lambros Taklis.
+            Original music by Lambros Taklis
 
-            Sub-woofer, mirror, light, sound, water.
-            For this installation a specific music was composed in order to vibrate a vessel filled with water. According to the frequencies of the music the vessel is vibrated through a sub-woofer and harmonic waves are produced on the surface of the water. With the help of a mirror the shapes created by the sound on the water, are reflected on the ceiling of the room.
+			Video projection on a transparent balloon.
+
+			Cracked glass, web structures, etc. are projected on the precarious surface of a soap bubble. This material is recorded on video, invested with a musical theme composed specifically for the work by Lambros Taklis and projected by a video projector onto a transparent sphere. The dimensions and the position of the sphere are determined by the specific site of each installation.
+
+			The work was created for the exhibition Common Place 1 (Epi Kolono Theatre, 2005), was presented also at the exhibition Dialogues (Macedonian Museum of Contemporary Art, Thessaloniki 2006 - participation through TinT gallery) and at my solo exhibition "At the limits of matter", Athens 2011-workshop dionisis+kirki (factum11).
         </en>
-        <fr>
+		<fr>
             Installation : Efi Fouriki
             Musique Originale : Lambros Taklis
 
-            Sub-woofer, miroir, lumière, son, eau.
-            Pour cette installation, une musique certaine a été composée pour vibrer un vase rempli avec de l'eau. Selon les fréquences de la musique, l'eau est vibré via un sub-woofer et les vaques harmoniques sont produits dur la surface. Avec l'assistance d'un miroir, les formes créées par le son sur l'eau sont reflétées sur le plafond de la chambre.
-        </fr>
-    </description>
+			Video projection on a transparent balloon.
+
+			Cracked glass, web structures, etc. are projected on the precarious surface of a soap bubble. This material is recorded on video, invested with a musical theme composed specifically for the work by Lambros Taklis and projected by a video projector onto a transparent sphere. The dimensions and the position of the sphere are determined by the specific site of each installation.
+
+			The work was created for the exhibition Common Place 1 (Epi Kolono Theatre, 2005), was presented also at the exhibition Dialogues (Macedonian Museum of Contemporary Art, Thessaloniki 2006 - participation through TinT gallery) and at my solo exhibition "At the limits of matter", Athens 2011-workshop dionisis+kirki (factum11).
+		</fr>
+	</description>
+	<links>
+		efifouriki.com
+	</links>
 </project>
 
 

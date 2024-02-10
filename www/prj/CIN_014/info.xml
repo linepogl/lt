@@ -1,34 +1,34 @@
 <project>
-
 	<title>
-		<en>BABA!</en>
-		<fr>BABA!</fr>
+		<en>Le passager de l'été</en>
+		<fr>Le passager de l'été</fr>
 	</title>
-
 	<subtitle>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
+		<en>Drama, Romance</en>
+		<fr>Drame, Romance</fr>
 	</subtitle>
-
 	<type>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
+		<en>Drama, Romance</en>
+		<fr>Drame, Romance</fr>
 	</type>
-    <description>
-        <en>
-            Original music : Lambros Taklis
-			Director : Fatih TURSUN
-			Production : SERIAL PROD, 2017
+	<description>
+		<en>
+            Music created for the film music course of Ecole Normale de Paris. 
+
+            Original Music by: Lambros Taklis
+            Directed by: Florence Moncorgé-Gabin
+            Produced by: Alain Terzian et Christine Gozlan
+            Production: Alter Films, Thelma Films, StudioCanal, France 3 Cinéma 
 		</en>
-        <fr>
-            Musique originale : Lambros Taklis
-			Réalisateur : Fatih TURSUN
-			Production : SERIAL PROD, 2017
-        </fr>
-    </description>
+		<fr>
+            Musique réalisée dans le cadre du concours de musique de film de l'Ecole Normale de Paris. 
 
+            Musique Originale : Lambros Taklis
+            Réalisation : Florence Moncorgé-Gabin
+            Producteurs : Alain Terzian et Christine Gozlan
+            Producteur : Alter Films, Thelma Films, StudioCanal, France 3 Cinéma 
+		</fr>
+	</description>
 </project>
-
-
 
 

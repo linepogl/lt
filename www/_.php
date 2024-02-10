@@ -187,7 +187,7 @@ class Project {
 		return strtoupper(substr($this->code,0,3));
 	}
     public function GetLinks(){
-        return explode("\n", $this->links);
+        return explode("\n", trim($this->links));
     }
 	public function GetNextProject(){
 		$r = null;

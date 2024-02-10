@@ -1,11 +1,11 @@
 <project>
     <title>
-        <en>Reflections</en>
-        <fr>Reflections</fr>
+        <en>ImMERsion</en>
+        <fr>ImMERsion</fr>
     </title>
     <subtitle>
-        <en>Installation by Efi Fouriki</en>
-        <fr>Installation de Efi Fouriki</fr>
+        <en>Installation</en>
+        <fr>Installation</fr>
     </subtitle>
     <type>
         <en>Installation</en>
@@ -13,22 +13,41 @@
     </type>
     <description>
         <en>
-            Installation by Efi Fouriki
-            Original music by Lambros Taklis
+            ImMERsion (2018)
 
-            Video projection on a reflective surface
+            Installation by:
+            Athina MASOURA, artist
 
-            The work started from a super-8 film showing the pupils of a primary school. This material was transferred on video, invested with a musical theme composed specifically for the work by Lambros Taklis and projected on the reflective surface of a special screen. Viewers watch on the screen the faces of the children, which the specific material transforms into light that spreads all over the site of the installation.
+            Soundscapes by Lambros Taklis, composer - sound artist
+
+            Materials used:
+            Sand, fan mister, audio surround system 5.1, algae, oysters. Dimensions variable.
+
+            ImMERsion is an installation with a particular configuration that physically and psychologically involves the viewer. Once inside the work we found ourselves in a devouring darkness.  The total absence of light leaves the space without apparent forms or limits. The room becomes a landscape that is simultaneously imaginary, abstract and physically explorable by the spectator.
+
+            The sudden deprivation of one of our senses intensifies the others. From his first steps into the room, the spectator feels a breeze of air, coming from a fan-mister. The feeling of touch is also intensified by the floor which is not as one might have expected, smooth and united. The sand covering the floor gives an unusual tactile sensation to our steps, signifying to the viewer that he is no longer walking through an exhibition hall.
+
+            The dark space is also invested by a sound environment which seeks to merge a real situation – our presence in the room – with an imaginary landscape – the fact of being at the sea. At last, odors are added in several places in the dark room to complete the polysensory experience.
         </en>
         <fr>
-            Installation : Efi Fouriki
-            Musique Originale : Lambros Taklis
+            ImMERsion, 2018
 
-            Video projection on a reflective surface
+            Installation de Athina MASSOURA, artiste
 
-            The work started from a super-8 film showing the pupils of a primary school. This material was transferred on video, invested with a musical theme composed specifically for the work by Lambros Taklis and projected on the reflective surface of a special screen. Viewers watch on the screen the faces of the children, which the specific material transforms into light that spreads all over the site of the installation.
+            Paysage sonore : Lambros TAKLIS
+
+            Matériel utilisé :
+            Sable, brouillard artificiel, système audio 5.1 surround, algues, huitres, Dimensions variables
+
+            ImMERsion est une installation ayant une configuration spatiale particulière qui implique physiquement et psychologiquement le spectateur. Ce dernier rentre dans une pièce d’obscurité dévorante sans formes ni limites apparentes. L’espace concret de la salle devient un paysage à la fois imaginaire, abstrait et physiquement explorable par le spectateur.
+
+            La privation soudaine d’un de nos sens intensifie les autres. L’incapacité de voir force le spectateur à chercher d’autres appuis afin de se situer et se déplacer dans l’espace. Dès ses premiers pas dans la salle, il sent une vague d’air, venant de deux ventilateurs brumisateurs. La sensation du touché s’intensifie par le sol qui n’est pas comme on aurait pu l’attendre, lisse et uni. Le sable couvrant la surface de la pièce donne une sensation tactile inhabituelle à nos pas, signifiant au spectateur qu’il ne parcourt plus une salle d’exposition.
+
+            L’espace obscur est également investi par une ambiance sonore qui cherche à fusionner une situation réelle – notre présence dans la salle – avec un paysage imaginaire – le fait d’être au bord de la mer. Enfin, des odeurs du paysage maritime viennent s’ajouter à l’idée de la scène.
         </fr>
     </description>
+    <links>
+        athinamasoura.com
+    </links>
 </project>
-
 
