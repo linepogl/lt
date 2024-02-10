@@ -1,19 +1,25 @@
 <project>
 	<title>
-		<en>Greek memories</en>
-		<fr>Greek memories</fr>
+		<en>Smyrneiko minore</en>
+		<fr>Smyrneiko minore</fr>
 	</title>
 	<subtitle>
-		<en>Greek traditional music.</en>
-		<fr>Musique traditionnelle grecque.</fr>
+		<en>A traditional song from Smyrna.</en>
+		<fr>Une chanson traditionnelle de Smyrne.</fr>
 	</subtitle>
-    <type>
-        <en>World music</en>
-        <fr>Musique du monde</fr>
-    </type>
+	<type>
+		<en>World music</en>
+		<fr>Musique du monde</fr>
+	</type>
 	<description>
-        <en>Excerpt from a personal project about Greek traditional music.</en>
-        <fr>Extrait d'un projet personnel autour de la musique traditionnelle grecque.</fr>
+		<en>
+            Piano arrangement / performance : Lambros Taklis
+            Vocals: Stella Kellari
+		</en>
+		<fr>
+            Piano / performance : Lambros Taklis
+            Voix : Stella Kellari
+		</fr>
 	</description>
 </project>
 

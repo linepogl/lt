@@ -1,31 +1,33 @@
 <project>
 
 	<title>
-		<en>McDonnald's</en>
-		<fr>McDonnald's</fr>
+		<en>Tellas</en>
+		<fr>Tellas</fr>
 	</title>
 
 	<subtitle>
-		<en>Olympic pins Athens 2004</en>
-		<fr>Épingles olympiques  Athènes 2004</fr>
+		<en>Tellas Zisto</en>
+		<fr>Tellas Zisto</fr>
 	</subtitle>
 
 	<type>
-		<en>TV Commercial</en>
-		<fr>Publicité</fr>
+		<en>TV &amp; Cinema Campaign</en>
+		<fr>Campagne Cinéma et Télé</fr>
 	</type>
 
 
     <description>
         <en>
+            Ermis Awards 2007
             Music by Lambros Taklis.
-            Director : Giannis Gaitanidis
-            Stefi productions / TBWA
+            Director : Claus Dowie
+            Stefi Productions
         </en>
         <fr>
+            Ermis Awards 2007
             Musique : Lambros Taklis.
-            Réalisateur : Giannis Gaitanidis
-            Stefi productions / TBWA
+            Réalisateur : Claus Dowie
+            Stefi Productions
         </fr>
     </description>
 

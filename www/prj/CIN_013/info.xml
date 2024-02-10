@@ -1,33 +1,34 @@
 <project>
-
 	<title>
-		<en>Sacred hills</en>
-		<fr>Sacred hills</fr>
+		<en>Le passager de l'été</en>
+		<fr>Le passager de l'été</fr>
 	</title>
-
 	<subtitle>
-        <en>Ethnic/orchestral/electronic</en>
-        <fr>Ethnique/Orchestral/Électronique</fr>
+		<en>Drama, Romance</en>
+		<fr>Drame, Romance</fr>
 	</subtitle>
-
 	<type>
-		<en>Corporate Video</en>
-		<fr>Vidéo d'entreprise</fr>
+		<en>Drama, Romance</en>
+		<fr>Drame, Romance</fr>
 	</type>
-    <description>
-        <en>
-            Commissioned by Pireaus Bank
-            Original music : Lambros Taklis.
-            Director : Giovanni Caccamo
-            Stefi Productions
-        </en>
-        <fr>
-            Commandé par Banque de Pireaus
-            Musique originale : Lambros Taklis.
-            Réalisateur : Giovanni Caccamo
-            Stefi Productions
-        </fr>
-    </description>
+	<description>
+		<en>
+            Music created for the film music course of Ecole Normale de Paris. 
+
+            Original Music by: Lambros Taklis
+            Directed by: Florence Moncorgé-Gabin
+            Produced by: Alain Terzian et Christine Gozlan
+            Production: Alter Films, Thelma Films, StudioCanal, France 3 Cinéma 
+		</en>
+		<fr>
+            Musique réalisée dans le cadre du concours de musique de film de l'Ecole Normale de Paris. 
+
+            Musique Originale : Lambros Taklis
+            Réalisation : Florence Moncorgé-Gabin
+            Producteurs : Alain Terzian et Christine Gozlan
+            Producteur : Alter Films, Thelma Films, StudioCanal, France 3 Cinéma 
+		</fr>
+	</description>
 </project>
 
 

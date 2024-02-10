@@ -1,13 +1,13 @@
 <project>
 
 	<title>
-		<en>Fleur bleue</en>
-		<fr>Fleur bleue</fr>
+		<en>Melissa's world</en>
+		<fr>Melissa's world</fr>
 	</title>
 
 	<subtitle>
-		<en>Drama</en>
-		<fr>Dramatique</fr>
+		<en>Music from the short film, "Dusky light".</en>
+		<fr>Musique du court métrage, "Dusky light".</fr>
 	</subtitle>
 
 	<type>
@@ -17,11 +17,11 @@
     <description>
         <en>
             Original music : Lambros Taklis.
-            Director : Chris Dimolikas
+            Director : Andreas Savvidis.
         </en>
         <fr>
             Musique originale : Lambros Taklis.
-            Réalisateur : Chris Dimolikas
+            Réalisateur : Andreas Savvidis.
         </fr>
     </description>
 

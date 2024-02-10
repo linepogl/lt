@@ -1,17 +1,17 @@
 <project>
 
 	<title>
-		<en>A Step Behind</en>
-		<fr>A Step Behind</fr>
+		<en>Dear Lucie</en>
+		<fr>Dear Lucie</fr>
 	</title>
 
 	<subtitle>
-		<en>Action/Epic</en>
-		<fr>Action/Epique</fr>
+        <en>Drama</en>
+        <fr>Dramatique</fr>
 	</subtitle>
 
 	<type>
-		<en>Concept</en>
+		<en>Concept work</en>
 		<fr>Concept</fr>
 	</type>
     <description>

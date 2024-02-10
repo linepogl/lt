@@ -1,34 +1,27 @@
 <project>
+
 	<title>
-		<en>Le passager de l'été</en>
-		<fr>Le passager de l'été</fr>
+		<en>Sacred hills</en>
+		<fr>Sacred hills</fr>
 	</title>
+
 	<subtitle>
-		<en>Drama, Romance</en>
-		<fr>Drame, Romance</fr>
+        <en>Ethnic/orchestral/electronic</en>
+        <fr>Ethnique/Orchestral/Électronique</fr>
 	</subtitle>
+
 	<type>
-		<en>Drama, Romance</en>
-		<fr>Drame, Romance</fr>
+		<en>Concept work</en>
+		<fr>Conception</fr>
 	</type>
-	<description>
-		<en>
-            Music created for the film music course of Ecole Normale de Paris. 
-
-            Original Music by: Lambros Taklis. www.taklis.com
-            Directed by: Florence Moncorgé-Gabin
-            Produced by: Alain Terzian et Christine Gozlan
-            Production: Alter Films, Thelma Films, StudioCanal, France 3 Cinéma 
-		</en>
-		<fr>
-            Musique réalisée dans le cadre du concours de musique de film de l'Ecole Normale de Paris. 
-
-            Musique Originale : Lambros Taklis. www.taklis.com
-            Réalisation : Florence Moncorgé-Gabin
-            Producteurs : Alain Terzian et Christine Gozlan
-            Producteur : Alter Films, Thelma Films, StudioCanal, France 3 Cinéma 
-		</fr>
-	</description>
+    <description>
+        <en>
+            Original music : Lambros Taklis
+        </en>
+        <fr>
+            Musique originale : Lambros Taklis
+        </fr>
+    </description>
 </project>
 
 

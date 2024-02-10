@@ -1,27 +1,25 @@
 <project>
 
 	<title>
-		<en>Melissa's world</en>
-		<fr>Melissa's world</fr>
+		<en>Fleur bleue</en>
+		<fr>Fleur bleue</fr>
 	</title>
 
 	<subtitle>
-		<en>Music from the short film, "Dusky light".</en>
-		<fr>Musique du court métrage, "Dusky light".</fr>
+		<en>Concept work</en>
+		<fr>Conception</fr>
 	</subtitle>
 
 	<type>
-		<en>Short film</en>
-		<fr>Court métrage</fr>
+		<en>Concept work</en>
+		<fr>Conception</fr>
 	</type>
     <description>
         <en>
             Original music : Lambros Taklis.
-            Director : Andreas Savvidis.
         </en>
         <fr>
             Musique originale : Lambros Taklis.
-            Réalisateur : Andreas Savvidis.
         </fr>
     </description>
 

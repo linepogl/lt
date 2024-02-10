@@ -1,13 +1,13 @@
 <project>
 
 	<title>
-		<en>FAGE</en>
-		<fr>FAGE</fr>
+		<en>Ionia</en>
+		<fr>Ionia</fr>
 	</title>
 
 	<subtitle>
-		<en>Yogurt</en>
-		<fr>Yaourt</fr>
+		<en>"Greece"</en>
+		<fr>"Grèce"</fr>
 	</subtitle>
 
 	<type>
@@ -19,13 +19,11 @@
     <description>
         <en>
             Music by Lambros Taklis.
-            Director : Ernesto Cinzi
-            Stefi productions / BOLD OGILVY
+            Stefi productions
         </en>
         <fr>
             Musique : Lambros Taklis.
-            Réalisateur : Ernesto Cinzi
-            Stefi productions / BOLD OGILVY
+            Stefi productions
         </fr>
     </description>
 

@@ -29,7 +29,7 @@ class LT {
 		}
 	}
 
-	private static $tabs = array('CIN','COM','PER');
+	private static $tabs = array('CIN','INS','PER','COM');
 	public static function GetTabs() { return self::$tabs; }
 	public static function GetTab() {
 		if (in_array(self::$tab,self::GetTabs())) return self::$tab;
@@ -49,6 +49,8 @@ class LT {
 			default:
 			case 'CIN':
 				return SAY(array('en' => 'Cinema','fr' => 'Cinéma'));
+			case 'INS':
+				return SAY(array('en' => 'Installations','fr' => 'Installations'));
 			case 'COM':
 				return SAY(array('en' => 'Commercial','fr' => 'Publicités'));
 			case 'PER':
@@ -66,7 +68,7 @@ class LT {
 			$prj = Project::Load($f);
 			$r[] = $prj;
 		}
-		return $r;
+		return array_reverse($r);
 	}
 
 
@@ -141,6 +143,7 @@ class LT {
  * @property $type
  * @property $date
  * @property $description
+ * @property $links
  */
 class Project {
 	private $data = array('icon' => '&#xE000');
@@ -152,6 +155,9 @@ class Project {
 	}
 	public function __get($key) {
 		return isset($this->data[$key])?$this->data[$key]:'';
+	}
+	public function GetPath() {
+		return 'prj/'.$this->data['code'];
 	}
 	public function Render() {
 		$php = 'prj/'.$this->code.'/page.php';
@@ -180,6 +186,9 @@ class Project {
 	public function GetTab(){
 		return strtoupper(substr($this->code,0,3));
 	}
+    public function GetLinks(){
+        return explode("\n", $this->links);
+    }
 	public function GetNextProject(){
 		$r = null;
 		$found = false;

@@ -1,24 +1,20 @@
 <project>
 	<title>
-		<en>Dream</en>
-		<fr>Dream</fr>
+		<en>Pop / Rock / Funk / Hip Hop Montage</en>
+		<fr>Pop / Rock / Funk / Hip Hop Montage</fr>
 	</title>
 	<subtitle>
-		<en>Installation by Efi Fouriki</en>
-		<fr>Installation de Efi Fouriki</fr>
+		<en></en>
+		<fr></fr>
 	</subtitle>
 	<type>
-		<en>Installation</en>
-        <fr>Installation</fr>
+		<en>Montage</en>
+		<fr>Montage</fr>
 	</type>
 	<description>
 		<en>
-            Installation by Efi Fouriki
-            Original music by Lambros Taklis.
-        </en>
+		</en>
 		<fr>
-            Installation : Efi Fouriki
-            Musique Originale : Lambros Taklis
 		</fr>
 	</description>
 </project>

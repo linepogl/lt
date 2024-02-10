@@ -1,30 +1,50 @@
 <project>
-
 	<title>
-		<en>Ancient Illis</en>
-		<fr>Ancient Illis</fr>
+		<en>Hidden life</en>
+		<fr>Hidden life</fr>
 	</title>
-
 	<subtitle>
-		<en>Music from the documentary "Anient Ilis"</en>
-		<fr>Musique du documentaire "Anient Ilis"</fr>
+		<en>Official selection at Cannes Short Film Corner 2012.</en>
+		<fr>Sélection officielle du short film corner du festival de Cannes.</fr>
 	</subtitle>
-
 	<type>
-		<en>Documentary</en>
-		<fr>Documentaire</fr>
+		<en>Drama, Thriller</en>
+		<fr>Drame, Thriller</fr>
 	</type>
-    <description>
-        <en>
-            Original music : Lambros Taklis.
-            Director : Yiannis Bournazos
-        </en>
-        <fr>
-            Musique originale : Lambros Taklis.
-            Réalisateur : Yiannis Bournazos
-        </fr>
-    </description>
+	<description>
+		<en>
+            Original Music by: Lambros Taklis
+            Produced by: Nikitas Rafail
+            Directed by: Gkotsis Dimitris &amp; Roland Rammul
+            With Errikos Litsis - Theoharis Ioannidis - Tety Kalafati - Stella Ermi
 
+            Official Selection At Cannes Short Film Corner 2012
+            Winner - Best Student Film Award - 2nd Athens Digital Film Festival 2012
+            Winner - Best Cinematography Award - 3rd Peloponnesian International Film Festival 2012
+            Honorary Distinction - Actor In A Leading Role - 2nd Athens Digital Film Festival 2012
+            Official Selection At 35th Drama Film Festival
+            Official Selection At International Short Film Festival Cyprus 2012
+            Official Selection At 3rd AFF 2012
+            Official Selection At SWIFF London 2012
+            Official Selection At TiSFF 2012
+		</en>
+		<fr>
+            Musique Originale : Lambros Taklis
+            Production : Nikitas Rafail
+            Réalisateur : Gkotsis Dimitris &amp; Roland Rammul
+            Avec Errikos Litsis - Theoharis Ioannidis - Tety Kalafati - Stella Ermi
+
+            Official Selection At Cannes Short Film Corner 2012
+            Winner - Best Student Film Award - 2nd Athens Digital Film Festival 2012
+            Winner - Best Cinematography Award - 3rd Peloponnesian International Film Festival 2012
+            Honorary Distinction - Actor In A Leading Role - 2nd Athens Digital Film Festival 2012
+            Official Selection At 35th Drama Film Festival
+            Official Selection At International Short Film Festival Cyprus 2012
+            Official Selection At 3rd AFF 2012
+            Official Selection At SWIFF London 2012
+            Official Selection At TiSFF 2012
+		</fr>
+	</description>
 </project>
 
 

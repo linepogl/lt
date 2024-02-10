@@ -1,32 +1,26 @@
 <project>
+
 	<title>
-		<en>A drop in the ocean</en>
-		<fr>A drop in the ocean</fr>
+		<en>Chasing cars</en>
+		<fr>Chasing cars</fr>
 	</title>
+
 	<subtitle>
-		<en>Animated short film.</en>
-		<fr>Court métrage d'animation.</fr>
+		<en>Orchestral/Electronic</en>
+		<fr>Orchestral/Électronique</fr>
 	</subtitle>
+
 	<type>
-		<en>Stop motion</en>
-		<fr>Stop motion</fr>
+		<en>Concept work</en>
+		<fr>Concept</fr>
 	</type>
-	<date>
-		<en> </en>
-		<fr> </fr>
-	</date>
-	<description>
-		<en>
-            Original music : Lambros Taklis.
-            Director : D.Heliotis &amp; T. Veneris.
-            Sponsored by ODEON.
-		</en>
-		<fr>
-            Musique originale : Lambros Taklis.
-            Réalisateur : D.Heliotis &amp; T. Veneris.
-            Sponsorisé by ODEON.
-		</fr>
-	</description>
+    <description>
+        <en>
+        </en>
+        <fr>
+        </fr>
+    </description>
+
 </project>
 
 

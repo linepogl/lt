@@ -1,29 +1,33 @@
 <project>
 
 	<title>
-		<en>EVGA</en>
-		<fr>EVGA</fr>
+		<en>Skoda Fabia</en>
+		<fr>Skoda Fabia</fr>
 	</title>
 
 	<subtitle>
-		<en>Croissant Folie</en>
-		<fr>Croissant Folie</fr>
+		<en>Otto</en>
+		<fr>Otto</fr>
 	</subtitle>
 
 	<type>
-		<en>TV Commercial</en>
-		<fr>Publicité</fr>
+		<en>TV Commercial Series</en>
+		<fr>Série de Publicités</fr>
 	</type>
 
 
     <description>
         <en>
             Music by Lambros Taklis.
-            Stefi productions
+            Ermis Awards 2007
+            Director : George Korgianitis
+            Stefi productions / TEAM ATHENS
         </en>
         <fr>
             Musique : Lambros Taklis.
-            Stefi productions
+            Ermis Awards 2007
+            Réalisateur : George Korgianitis
+            Stefi productions / TEAM ATHENS
         </fr>
     </description>
 

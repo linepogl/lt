@@ -1,13 +1,13 @@
 <project>
 
 	<title>
-		<en>Nova</en>
-		<fr>Nova</fr>
+		<en>Frulite</en>
+		<fr>Frulite</fr>
 	</title>
 
 	<subtitle>
-		<en>Cinema season</en>
-		<fr>Saison cinéna</fr>
+		<en>Frulite on the go</en>
+		<fr>Frulite on the go</fr>
 	</subtitle>
 
 	<type>
@@ -19,13 +19,11 @@
     <description>
         <en>
             Music by Lambros Taklis.
-            Director : Claus Dowie
-            Movielab
+            Director : Tolis Papathanasiou
         </en>
         <fr>
             Musique : Lambros Taklis.
-            Réalisateur : Claus Dowie
-            Movielab
+            Réalisateur : Tolis Papathanasiou
         </fr>
     </description>
 

@@ -20,10 +20,12 @@ $current_tab = LT::GetTab();
 /** @var $prj Project */
 foreach (LT::GetProjects($current_tab) as $prj) {
 	$thumb = $prj->GetThumbnailSrc();
+    $decal = $prj->GetDecalSrc();
 	?>
   <a class="portfolio-item" href="<?= HTML(LT::Href('project.php',array('prj'=>$prj->code))) ?>">
 	<div class="type"><span class="icon"><?=$prj->icon?></span><span class="text"><?= HTML($prj->type) ?></span></div>
 	<div class="bg"<?= $thumb==''?'':' style="background:url('.$thumb.') 50% 50% no-repeat;"'?>>
+    <?php if ($decal != '') { echo '<img src="'.HTML($decal).'" style="height:40px;margin:5px;float:right;" />'; } ?>
 	<div class="title"><?= HTML($prj->title) ?></div>
 	<div class="subtitle"><?= HTML($prj->subtitle) ?></div>
 	</div>

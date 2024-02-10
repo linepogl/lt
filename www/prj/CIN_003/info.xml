@@ -1,30 +1,26 @@
 <project>
+
 	<title>
-		<en>Orchestral Reel</en>
-		<fr>Orchestral Reel</fr>
+		<en>Valley of prayers</en>
+		<fr>Valley of prayers</fr>
 	</title>
+
 	<subtitle>
-		<en>Excerpts from various orchestral pieces.</en>
-		<fr>Extraits des pièces diverces de musique orchestral.</fr>
+		<en>Ethnic/Ambient</en>
+		<fr>Ethnique/Ambiante</fr>
 	</subtitle>
+
 	<type>
-		<en>Film music</en>
-		<fr>Musique de film</fr>
+		<en>Concept work</en>
+		<fr>Concept</fr>
 	</type>
-	<date>
-		<en> </en>
-		<fr> </fr>
-	</date>
-	<description>
-		<en>
+    <description>
+        <en>
+        </en>
+        <fr>
+        </fr>
+    </description>
 
-
-		</en>
-		<fr>
-
-
-		</fr>
-	</description>
 </project>
 
 

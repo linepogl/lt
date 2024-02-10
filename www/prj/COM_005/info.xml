@@ -1,13 +1,13 @@
 <project>
 
 	<title>
-		<en>Tellas</en>
-		<fr>Tellas</fr>
+		<en>Delta</en>
+		<fr>Delta</fr>
 	</title>
 
 	<subtitle>
-		<en>Broadband mountain</en>
-		<fr>Broadband mountain</fr>
+		<en>Vivartia Group</en>
+		<fr>Groupe Vivartia</fr>
 	</subtitle>
 
 	<type>
@@ -19,13 +19,15 @@
     <description>
         <en>
             Music by Lambros Taklis.
-            Director : Claus Dowie
-            Stefi Productions
+            Ermis Awards 2005
+            Director : Babis Makridis
+            Filmiki productions / SPOT JWT
         </en>
         <fr>
             Musique : Lambros Taklis.
-            Réalisateur : Claus Dowie
-            Stefi Productions
+            Ermis Awards 2005
+            Réalisateur : Babis Makridis
+            Filmiki productions / SPOT JWT
         </fr>
     </description>
 

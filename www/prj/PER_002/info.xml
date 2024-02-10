@@ -1,26 +1,22 @@
 <project>
-    <title>
-        <en>Reflections</en>
-        <fr>Reflections</fr>
-    </title>
-    <subtitle>
-        <en>Installation by Efi Fouriki</en>
-        <fr>Installation de Efi Fouriki</fr>
-    </subtitle>
-    <type>
-        <en>Installation</en>
-        <fr>Installation</fr>
-    </type>
-    <description>
-        <en>
-            Installation by Efi Fouriki
-            Original music by Lambros Taklis.
-        </en>
-        <fr>
-            Installation : Efi Fouriki
-            Musique Originale : Lambros Taklis
-        </fr>
-    </description>
+	<title>
+		<en>Falling stars</en>
+		<fr>Falling stars</fr>
+	</title>
+	<subtitle>
+		<en>Lounge</en>
+		<fr>Lounge</fr>
+	</subtitle>
+	<type>
+		<en>Easy Listening</en>
+		<fr>Easy Listening</fr>
+	</type>
+	<description>
+		<en>
+		</en>
+		<fr>
+		</fr>
+	</description>
 </project>
 
 
